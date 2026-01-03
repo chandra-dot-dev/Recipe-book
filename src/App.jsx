@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import SearchBar from "./components/SearchBar";
+import SearchBar from "./components/SearchBar/SearchBar.jsx";
 import CategorySection from "./components/CategorySection/CategorySection";
 import RecipeModal from "./components/RecipeModal/RecipeModal";
 import Navabar from "./components/Navabar/Navabar";
