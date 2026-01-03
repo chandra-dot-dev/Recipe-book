@@ -1,0 +1,22 @@
+/* ================= FOOTER ================= */
+
+.footer {
+  margin-top: 80px;
+  padding: 24px 0;
+
+  text-align: center;
+  background: #fffaf3;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Text */
+.footer p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Brand highlight */
+.footer span {
+  color: #c0392b;
+  font-weight: 600;
+}

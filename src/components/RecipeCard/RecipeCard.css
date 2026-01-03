@@ -1,0 +1,50 @@
+/* ================= RECIPE CARD ================= */
+
+.recipe-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+/* Hover lift effect */
+.recipe-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Image container */
+.recipe-img {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+/* Image zoom on hover */
+.recipe-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.recipe-card:hover .recipe-img img {
+  transform: scale(1.1);
+}
+
+/* Recipe title */
+.recipe-info {
+  padding: 16px;
+  text-align: center;
+}
+
+.recipe-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d2d2d;
+  line-height: 1.3;
+}

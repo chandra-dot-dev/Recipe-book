@@ -1,0 +1,53 @@
+/* ================= SEARCH BAR ================= */
+
+.search-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 60px 0 40px 0;
+  padding: 0 20px;
+}
+
+/* Input field */
+.search-wrapper input {
+  width: 100%;
+  max-width: 600px;
+  padding: 18px 30px;
+
+  font-size: 17px;
+  font-weight: 400;
+
+  border-radius: 50px;
+  border: 2px solid transparent;
+
+  background: #ffffff;
+  color: #2d3436;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Placeholder */
+.search-wrapper input::placeholder {
+  color: #b2b2b2;
+  font-weight: 300;
+}
+
+/* Focus animation */
+.search-wrapper input:focus {
+  border-color: rgba(255, 107, 107, 0.5);
+  box-shadow: 0 15px 40px rgba(255, 107, 107, 0.15);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .search-wrapper {
+    margin: 40px 0 30px 0;
+  }
+  
+  .search-wrapper input {
+    padding: 15px 24px;
+    font-size: 16px;
+  }
+}
